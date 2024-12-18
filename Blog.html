@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Blog de Fútbol</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Style.css'>
+    <script src='index.js'></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos al Blog de Fútbol</h1>
+        <p>Todo sobre el apasionante mundo del fútbol</p>
+        <div class="opciones">
+            <ul>
+                <img id="logo" src="Imagenes/Pelota de fútbol.png" alt="Logo de Fútbol"/>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#calendario">Calendario</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div id="inicio">
+            <div class="fondo">
+                <h2>Bienvenidos a mi Blog de Fútbol</h2>
+                <p>El fútbol es el deporte más popular del mundo, practicado en todos los rincones del planeta.</p>
+            </div>
+            <img src="Imagenes/futbolprincipal.png" alt="Fútbol en acción" class="imagen-principal"/>
+        </div>
+
+        <div id="noticias">
+            <div class="fondo">
+                <h2>Últimas Noticias</h2>
+                <p>Entérate de las últimas novedades sobre el mundo del fútbol.</p>
+            </div>
+            <article>
+                <h3>Nuevo campeón de la Champions League</h3>
+                <p>El equipo X se coronó campeón de la UEFA Champions League tras un emocionante partido...</p>
+                <img src="Imagenes\champions.png" alt="Champions League" class="imagen-noticia"/>
+            </article>
+            <article>
+                <h3>Futuro de Messi en el fútbol europeo</h3>
+                <p>¿Qué sigue para Lionel Messi después de su paso por la MLS? Aquí te contamos todo...</p>
+                <img src="Imagenes\messi.png" alt="Messi" class="imagen-noticia"/>
+            </article>
+        </div>
+
+        <div id="calendario">
+            <div class="fondo">
+                <h2>Calendario de Fútbol</h2>
+                <p>Consulta las fechas más importantes de la temporada para no perderte ningún partido.</p>
+            </div>
+            <img src="Imagenes\calendariofutbol.png" alt="Calendario Fútbol" class="imagen-calendario"/>
+        </div>
+
+        <div id="historia">
+            <h2>Historia del Fútbol</h2>
+            <p>El fútbol moderno tiene sus orígenes en Inglaterra en el siglo XIX, pero su historia se remonta a civilizaciones antiguas que jugaban a formas primitivas del juego.</p>
+            <p>En 1863, la Football Association se fundó en Inglaterra, estableciendo las primeras reglas del fútbol y formalizando el deporte tal como lo conocemos hoy en día.</p>
+            <img src="Imagenes\historiaFutbol.png" alt="Historia del Fútbol" class="imagen-historia"/>
+        </div>
+
+        <div id="contacto">
+            <div class="fondo">
+                <h2>Contacto</h2>
+                <p>Si tienes alguna pregunta o deseas compartir tu opinión, no dudes en contactarnos.</p>
+            </div>
+            <form action="submit_form.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blog de Fútbol de Valentino, reconocido fan del mejor club del mundo El Real Madrid además de defensor del balón de oro no reconocido Vinicius Jr. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
