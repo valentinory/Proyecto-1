@@ -1,0 +1,154 @@
+#logo {
+    float: left;
+    width: 4rem;
+}
+
+.opciones ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.opciones li {
+    float: right;
+}
+
+.opciones li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.opciones li a:hover {
+    background-color: #111;
+}
+
+body {
+    background-image: url('Imagenes/campo.jpg'); /* Asegúrate de usar la ruta correcta */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed; /* Fija la imagen de fondo cuando el usuario se desplaza */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el fondo cubra toda la altura de la ventana del navegador */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.fondo {
+    list-style-type: none;
+    margin: 10px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-radius: 50rem;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    margin: 0 10%;
+}
+
+#inicio h2, #noticias h2, #calendario h2, #historia h2, #contacto h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+
+.imagen-principal, .imagen-noticia, .imagen-calendario, .imagen-historia {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+#noticias article {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#noticias article h3 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+#noticias article p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+#historia {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#historia p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#historia img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 
+}
